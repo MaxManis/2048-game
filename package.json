@@ -1,8 +1,8 @@
 {
-  "name": "gulp-boilerplate",
+  "name": "2048-game",
   "version": "1.0.0",
-  "description": "Frontend boilerplate based on gulp",
-  "main": "index.js",
+  "description": "2048 game",
+  "main": "src/scripts/main.js",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
@@ -15,7 +15,7 @@
     "test": "npm run lint && npm run test:only"
   },
   "keywords": [],
-  "author": "Mate Academy",
+  "author": "maxbovtun@gmail.com",
   "license": "GPL-3.0",
   "devDependencies": {
     "@linthtml/linthtml": "^0.8.3",
@@ -29,11 +29,11 @@
     "eslint-plugin-node": "^9.0.1",
     "gh-pages": "2.0.0",
     "gulp-htmllint": "0.0.16",
-    "node-sass": "^4.14.1",
     "parcel": "^1.12.4",
     "stylelint": "^13.5.0",
     "stylelint-config-recommended-scss": "^3.3.0",
-    "stylelint-scss": "^3.17.2"
+    "stylelint-scss": "^3.17.2",
+    "sass": "^1.56.2"
   },
   "browserslist": [
     "last 2 versions"
